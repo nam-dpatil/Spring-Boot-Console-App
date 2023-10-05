@@ -8,7 +8,7 @@ import com.ty.modal.User;
 
 @Service
 public interface UserService {
-String upsert(User user);
+	String upsert(User user);
 	
 	User findById(int id);
 	
